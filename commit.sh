@@ -3,4 +3,4 @@
 cd /home/pi/kwaziipicam
 git add .
 git commit -m "upload new pictures"
-git push origin master
+HOME=/home/pi git push origin master
