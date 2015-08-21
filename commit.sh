@@ -1,6 +1,6 @@
 #!/bin/bash
 
-eval `ssh-agent -s`
+# eval `ssh-agent -s`
 cd /home/pi/kwaziipicam
 git add .
 git commit -m "upload new pictures #bot"
