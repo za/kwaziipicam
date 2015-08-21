@@ -1,5 +1,5 @@
 #!/bin/bash
 
-git add .
-git commit -m "upload new pictures"
-HOME=/home/pi git push origin master
+HOME=/home/pi/kwaziipicam git add .
+HOME=/home/pi/kwaziipicam git commit -m "upload new pictures"
+HOME=/home/pi/kwaziipicam git push origin master
