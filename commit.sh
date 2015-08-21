@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# eval `ssh-agent -s`
+. ~/.keychain/raspberrypi-sh
 cd /home/pi/kwaziipicam
 git add .
 git commit -m "upload new pictures #bot"
